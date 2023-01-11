@@ -4,7 +4,7 @@
 ## Download latest service unit
 `sudo curl -L https://github.com/usenimbus/nimbus/releases/latest/download/nimbus.service -o /etc/systemd/system/nimbus.service && sudo systemctl daemon-reload`
 ## setup your config secrets inside of /opt/nimbus/config.yaml
-Example config (copy using `sudo curl --create-dirs -L https://github.com/usenimbus/nimbus/releases/latest/download/nimbus-linux-amd64 -o /opt/nimbus/config.yaml`):
+Example config (copy using `sudo curl --create-dirs -L https://github.com/usenimbus/nimbus/releases/latest/download/config.yaml -o /opt/nimbus/config.yaml`):
 ```
 HOST: "nimbus.example.com" # replace nimbus.example.com with your chosen domain
 LICENSE_KEY: "my_example_key" # contact Nimbus to obtain your key
