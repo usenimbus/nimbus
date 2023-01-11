@@ -17,6 +17,8 @@ ENT_DATASOURCE: "postgresql://$USER:$PASSWORD@$HOST/$DATABASE?sslmode=verify-ful
 ```
 ## Initialize the database
 `nimbus database init`
+
+Enter `Y` when prompted to proceed with the database setup
 ## Start server as a service (and enable start on reboot)
 `systemctl enable nimbus --now`
 ## route your domain/loadbalancer to the service (running on port :8080)
