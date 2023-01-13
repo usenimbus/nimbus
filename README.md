@@ -5,6 +5,7 @@ Create an EC2 instance and a security group allow connections to port `:8080` fr
 
 ### Setup Load Balancer and Domain(s)
 1. Create a new Route53 Zone for your workspaces (for example, `workspaces.example.com`). Subdomains per workspace are created here.
+    1. Make a note of the Hosted Zone ID as this is needed later.
 1. Create an Application Load Balancer with HTTPS enabled.
     1. Route all HTTPS traffic to port `:8080` on your newly created EC2 instance
 1. Create a new Route53 Zone for your hosted Nimbus URL (for example `nimbus.example.com`)
