@@ -39,7 +39,7 @@ cd nimbus/terraform-ecs/example
 aws sts get-caller-identity
 
 # initialise the terraform repo
-terraform -init
+terraform init
 
 # apply the terraform infrastructure
 terraform apply \
