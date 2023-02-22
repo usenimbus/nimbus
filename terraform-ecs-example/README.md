@@ -23,6 +23,7 @@ Use the following references for more details on how to do this:
 | `host`            | The host you wish to deploy your application to. For example nimbus.mycompany.dev                                             |
 | `nimbus_org_name` | The name you want to display for your Nimbus org. For example 'My Company'. This can be changed later in the app.             |
 | `nimbus_version`  | version of Nimbus to deploy. For example v0.6.0. See the latest versions [here](https://github.com/usenimbus/nimbus/releases) |
+| `installation_name`  | (optional - defaults to `nimbus`). The name to use for resources created in AWS. |
 
 
 
@@ -50,3 +51,5 @@ terraform apply \
     -var="nimbus_org_name='$YOUR_ORG_NAME'" \
     -var="nimbus_version=$NIMBUS_VERSION"
 ```
+
+You can then view your ECS logs from inside the AWS console.
