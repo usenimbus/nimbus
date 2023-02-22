@@ -12,6 +12,8 @@ Use the following references for more details on how to do this:
 - https://registry.terraform.io/providers/hashicorp/aws/latest/docs#authentication-and-configuration
 - https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html#cli-configure-quickstart-precedence
 
+Setup a Cloudflare API key:
+- https://developers.cloudflare.com/fundamentals/api/get-started/create-token/
 
 ## Required configuration
 
